@@ -5,14 +5,15 @@ import duringFire from './graphics/DuringFire.png';
 import afterFire from './graphics/AfterFire.png';
 import communityImage from './graphics/CommunityWLocations.jpg';
 import{ useState } from "react";
+import { taskData } from "./taskData";
 
 
 function App() {
-  const taskList = ["task 1", "task 2"];
+  // const taskList = ["task 1", "task 2"];
   const [roleSelected, setRole] = useState ('Residents');
-  const [timelineSelected, setTimeline] = useState ('Before Fire');
+  const [timelineSelected, setTimeline] = useState ('beforeFire');
   const [roleIndex, setRoleIndex] = useState (0);  
-
+  
   const handleRoleClicked = (roleName, roleIndex) => {
     setRole (roleName);
     setRoleIndex (roleIndex);
@@ -20,7 +21,6 @@ function App() {
 
   const handleTimelineClicked = (timeline) => {
     setTimeline (timeline);
-    
   }
 
   return (
@@ -37,20 +37,21 @@ function App() {
     <div name = "timelineSection" />
       {/* <h3>Role Selected: {roleSelected}</h3> */}
       <h2>{roleSelected} Timeline</h2>
-      <img src= {beforeFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('Before Fire')} />
-      <img src={duringFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('During Fire')}/>
-      <img src={afterFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('After Fire')}/>
+      <img src= {beforeFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('beforeFire')} />
+      <img src={duringFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('duringFire')}/>
+      <img src={afterFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('afterFire')}/>
     
     
     <h2>Tasks: {timelineSelected}</h2>
     <div class = "taskList">
       tejiahsfioashf <br />
       jfafjsa <br />
-      {taskList[roleIndex]}
-      {/* Tasks: {taskList(0)} */}
+      {/* {taskList[roleIndex]} */}
       
     </div>
-      new text
+      {/* data: {JSON.stringify(taskData)}; */}
+      {/* {taskData.map((role, index)=>{return <h1>{role.afterFireTasks}</h1>})} */}
+      {taskData[roleIndex].(timelineSelected)};
     </div>
 
   );
