@@ -11,9 +11,9 @@ import { taskData } from "./taskData";
 function App() {
   // const taskList = ["task 1", "task 2"];
   const [roleSelected, setRole] = useState ('Residents');
-  const [timelineSelected, setTimeline] = useState ('beforeFire');
+  const [timelineSelected, setTimeline] = useState ("beforeFireTasks");
   const [roleIndex, setRoleIndex] = useState (0);  
-  
+  const timeList = ["beforeFireTasks", "duringFireTasks"];
   const handleRoleClicked = (roleName, roleIndex) => {
     setRole (roleName);
     setRoleIndex (roleIndex);
@@ -37,21 +37,19 @@ function App() {
     <div name = "timelineSection" />
       {/* <h3>Role Selected: {roleSelected}</h3> */}
       <h2>{roleSelected} Timeline</h2>
-      <img src= {beforeFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('beforeFire')} />
-      <img src={duringFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('duringFire')}/>
-      <img src={afterFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('afterFire')}/>
+      <img src= {beforeFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('beforeFireTasks')} />
+      <img src={duringFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('duringFireTasks')}/>
+      <img src={afterFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('afterFireTasks')}/>
     
     
     <h2>Tasks: {timelineSelected}</h2>
     <div class = "taskList">
-      tejiahsfioashf <br />
-      jfafjsa <br />
-      {/* {taskList[roleIndex]} */}
+      {/* data: {JSON.stringify(taskData)}; taskData[roleIndex]*/}
+      {/* {taskData.map((role, key)=>{return key = {residents} <h1>{role.afterFireTasks}</h1>})} */}
       
+      <h3>{taskData[roleIndex].tasks.afterFireTasks}</h3>
     </div>
-      {/* data: {JSON.stringify(taskData)}; */}
-      {/* {taskData.map((role, index)=>{return <h1>{role.afterFireTasks}</h1>})} */}
-      {taskData[roleIndex].(timelineSelected)};
+
     </div>
 
   );
