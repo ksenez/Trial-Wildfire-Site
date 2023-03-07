@@ -21,11 +21,22 @@ code {
  
 .taskList {
   text-align: left;
-  padding: 100px, 100px
+  padding: 100px, 100px;
 }
 
+.backButton{
+  padding-left: 300px;
+  text-align: left;
+  font-size: 26px;
+  background-color: rgb(159, 159, 218);
+};
+
+.taskSection{
+  background-color: rgb(202, 156, 156);
+  
+}
 .popup {
-  padding: 30px;
+  padding: 10px;
   background-color: rgba(56, 69, 150, 0.9);
   color: white;
   font-weight: 100;
