@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  white-space: pre-line;
+  
 }
 
 code {
@@ -17,6 +19,7 @@ code {
   height: 200px;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
  
 .taskList {
@@ -25,16 +28,34 @@ code {
 }
 
 .backButton{
-  padding-left: 300px;
   text-align: left;
   font-size: 26px;
-  background-color: rgb(159, 159, 218);
-};
+  /*background-color: rgb(159, 159, 218); */
+}
+
+.backButtonDiv{
+  padding-left: 200px;
+  text-align: left;
+  font-size: 26px;
+  /*background-color: rgb(159, 159, 218); */
+}
 
 .taskSection{
-  background-color: rgb(202, 156, 156);
+  margin: 30px;
+  border: 3px solid blue;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(187, 187, 187);
+  
+  /*background-color: red;*/
+}
+
+.tasks{
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
   
 }
+
 .popup {
   padding: 10px;
   background-color: rgba(56, 69, 150, 0.9);
