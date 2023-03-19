@@ -43,7 +43,7 @@ function App() {
     {mapShown && (<div>
         <img src={communityImage} alt = "communitymap" usemap = "#mainmap"/>
         <map name = "mainmap">
-             <area shape="circ" coords="150,270,30" onClick = {() => handleRoleClicked('Residents', 0)} />
+             <area shape="circ" coords="150,270,30" onClick = {() => handleRoleClicked('Residents', 0)}/>
              <area shape="circ" coords="163,422,30" onClick = {() => handleRoleClicked('Transportation Authority', 11)}/>            
              <area shape="circ" coords="390,130,30" onClick = {() => handleRoleClicked('Local Leader', 20)}/>
              <area shape="circ" coords="375,450,30" onClick = {() => handleRoleClicked('Local Fire Department', 1)} />
@@ -60,12 +60,11 @@ function App() {
 
     <div>
       {timelineShown && (<div>
-        <h1>{roleSelected} Timeline</h1>
+        <h1>{roleSelected}</h1>
         <img src= {beforeFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('Before the Fire')} />
         <img src={duringFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('During the Fire')}/>
         <img src={afterFire} class = "timelineGraphic" onClick = {() => handleTimelineClicked('After the Fire')}/>
     
-        
       </div>)}
 
       {taskShown && (<div class = "taskSection">
