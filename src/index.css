@@ -33,6 +33,14 @@ code {
   /*background-color: rgb(159, 159, 218); */
 }
 
+.showAll {
+  width: 82%;
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgb(221, 229, 248);
+  font-weight: bold;
+}
+
 .backButtonDiv{
   padding-left: 200px;
   text-align: left;

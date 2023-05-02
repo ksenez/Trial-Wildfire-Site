@@ -1,9 +1,33 @@
+export const roleList = '["Residents", "Local Fire Department","Local Authorities","Electric Companies", "Wildland Firefighters", "Emergency Co-ordinator"]';
+
+export const residentBeforeTaskData = [
+    {task: "- Vegetation Management. Create priority zones to evaluate management work needed in each zone."},
+    {task: "- Installation of a Fire/Fuel Breaks. Fire breaks are cleared area with little to no fuel sources, and fuel breaks are trenches dug down to mineral soil to stop the surface fire spread." },
+    {task: "- Have a shovel and digging tool to manage small fires close to buildings. Also sprinkler system (water hose) if possible" },
+    {task: "- Have firefighting tools propped against the house in a visible place"}
+]
+
+export const residentTaskData = [
+    {duringTask: "Select an image",},
+    {duringTask: "1. Report fire to Emergency Site"},
+    {duringTask: "2. Close all windows and doors,  moving combustibles away from windows/doors" },
+    {duringTask: "3. Place valuables in vehicle if possible to be prepped for quick departure "},
+    {duringTask: "4. Turn off propane or natural gas valves and clear surrounding vegetation from the tanks "},
+    {duringTask: "5. Fill sinks, tubs, and buckets with water as water reservoirs. Gather buckets and towels ",},
+    {duringTask: "6. Cover all openings with fire-resistant materials to keep embers/sparks out of the house",},
+    {duringTask: "7. Request needed resources from Emergency Co-ordinator",},
+    {duringTask: " 1. Report fire to Emergency Site  \n2. Close all windows and doors,  moving combustibles away from windows/doors \n3. Place valuables in vehicle if possible to be prepped for quick departure \n4. Turn off propane or natural gas valves and clear surrounding vegetation from the tanks \n5. Fill sinks, tubs, and buckets with water as water reservoirs. Gather buckets and towels \n6. Cover all openings with fire-resistant materials to keep embers/sparks out of the house \n7. Request needed resources from Emergency Co-ordinator" }
+]
+
 export const taskData = [
     {
         id: 0,
         name: "Residents",
         tasks: {
-                beforeFireTasks: "- Vegetation Management. Create priority zones to evaluate management work needed in each zone.  \n- Installation of a Fire/Fuel Breaks. Fire breaks are cleared area with little to no fuel sources, and fuel breaks are trenches dug down to mineral soil to stop the surface fire spread. \n- Have a shovel and digging tool to manage small fires close to buildings. Also sprinkler system (water hose) if possible \n- Have firefighting tools propped against the house in a visible place" ,
+                task1: "Vegetation Management. Create priority zones to evaluate management work needed in each zone.",
+                task2: "Have a shovel and digging tool to manage small fires close to buildings. Also sprinkler system (water hose) if possible",
+                beforeFireImage: './graphics/ResidentTasks1.jpg',
+                beforeFireTasks: "- Vegetation Management. Create priority zones to evaluate management work needed in each zone. \n - Installation of a Fire/Fuel Breaks. Fire breaks are cleared area with little to no fuel sources, and fuel breaks are trenches dug down to mineral soil to stop the surface fire spread. \n - Have a shovel and digging tool to manage small fires close to buildings. Also sprinkler system (water hose) if possible. \n - Have firefighting tools propped against the house in a visible place. ",
                 duringFireTasks : " 1. Report fire to Emergency Site  \n2. Close all windows and doors,  moving combustibles away from windows/doors \n3. Place valuables in vehicle if possible to be prepped for quick departure \n4. Turn off propane or natural gas valves and clear surrounding vegetation from the tanks \n5. Fill sinks, tubs, and buckets with water as water reservoirs. Gather buckets and towels \n6. Cover all openings with fire-resistant materials to keep embers/sparks out of the house \n7. Request needed resources from Emergency Co-ordinator",
                 afterFireTasks: "- Request reimbursments for evacuation costs from food and gas", 
             }
