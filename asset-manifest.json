@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Trial-Wildfire-Site/static/css/main.79339d0f.css",
-    "main.js": "/Trial-Wildfire-Site/static/js/main.cf0e4d69.js",
+    "main.css": "/Trial-Wildfire-Site/static/css/main.4c8828df.css",
+    "main.js": "/Trial-Wildfire-Site/static/js/main.66e816ee.js",
     "static/js/787.7ca9a48b.chunk.js": "/Trial-Wildfire-Site/static/js/787.7ca9a48b.chunk.js",
     "static/media/CommunityWLocations.png": "/Trial-Wildfire-Site/static/media/CommunityWLocations.4fb3fa58dbe38d180e2b.png",
     "static/media/2.png": "/Trial-Wildfire-Site/static/media/2.5d5854adc7b1ccef57b8.png",
@@ -66,12 +66,12 @@
     "static/media/14.png": "/Trial-Wildfire-Site/static/media/14.4f9990f404cbc4b4fe94.png",
     "static/media/logo.svg": "/Trial-Wildfire-Site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Trial-Wildfire-Site/index.html",
-    "main.79339d0f.css.map": "/Trial-Wildfire-Site/static/css/main.79339d0f.css.map",
-    "main.cf0e4d69.js.map": "/Trial-Wildfire-Site/static/js/main.cf0e4d69.js.map",
+    "main.4c8828df.css.map": "/Trial-Wildfire-Site/static/css/main.4c8828df.css.map",
+    "main.66e816ee.js.map": "/Trial-Wildfire-Site/static/js/main.66e816ee.js.map",
     "787.7ca9a48b.chunk.js.map": "/Trial-Wildfire-Site/static/js/787.7ca9a48b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79339d0f.css",
-    "static/js/main.cf0e4d69.js"
+    "static/css/main.4c8828df.css",
+    "static/js/main.66e816ee.js"
   ]
 }
