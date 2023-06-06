@@ -185,8 +185,8 @@ useEffect(() => {
       <img src={RoleIcon[taskData[19].id + '.png']} className='ExternalRoleImg' style={{right:'42%',bottom:'9.5%',transform: 'translate(42%, 9.5%)', scale: '0.9',}} title={taskData[19].name}onClick={() => handleRoleClicked(taskData[19].name, 19)} tabIndex={0} />
       <img src={RoleIcon[taskData[26].id + '.png']} className='ExternalRoleImg' style={{right:'49.75%',bottom:'7.5%',transform: 'translate(49.75%, 7.5%)',}} title={taskData[26].name}onClick={() => handleRoleClicked(taskData[26].name, 26)} tabIndex={0} />
       <img src={RoleIcon[taskData[21].id + '.png']} className='ExternalRoleImg' style={{left:'40%',bottom:'0.5%',transform: 'translate(-41%, 0.5%)', scale:'0.8'}} title={taskData[21].name}onClick={() => handleRoleClicked(taskData[21].name, 21)} tabIndex={0} />
-      <img src={RoleIcon[taskData[20].id + '.png']} className='ExternalRoleImg' style={{right:'40%',bottom:'0.1%',transform: 'translate(41%, 0.1%)', scale:'0.9'}} title={taskData[20].name}onClick={() => handleRoleClicked(taskData[20].name, 20)} tabIndex={0} />
-      <img src={RoleIcon[taskData[27].id + '.png']} className='ExternalRoleImg' style={{left:'50%',bottom:'1.5%',transform: 'translate(-50%, 0.5%)'}} title={taskData[27].name}onClick={() => handleRoleClicked(taskData[27].name, 27)} tabIndex={0} />    
+      <img src={RoleIcon[taskData[20].id + '.png']} className='ExternalRoleImg' style={{right:'40%',bottom:'0.05%',transform: 'translate(41%, 0.1%)', scale:'0.9'}} title={taskData[20].name}onClick={() => handleRoleClicked(taskData[20].name, 20)} tabIndex={0} />
+      <img src={RoleIcon[taskData[27].id + '.png']} className='ExternalRoleImg' style={{left:'50%',bottom:'0.1%',transform: 'translate(-50%, 0.5%)'}} title={taskData[27].name}onClick={() => handleRoleClicked(taskData[27].name, 27)} tabIndex={0} />    
         </div>
       )}
 
