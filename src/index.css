@@ -91,7 +91,18 @@ code {
   height: auto;
   width: 5.2%;
 } 
-
+.AckMapImg {
+  position: absolute;
+  align-items: center;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 4%;
+} 
+.AckMapImg:hover {
+  filter: brightness(120%);
+}
 .InternalRoleImg:hover {
   filter: brightness(120%);
 }
@@ -142,6 +153,24 @@ code {
   font-size: clamp(16px, 4vw, 26px);
   font-weight: bold;
   margin-top:-5px;
+}
+
+.ackGraphic{
+  max-width: 100%;
+  height: clamp(120px,20vw,250px);
+  width: clamp(120px,20vw,250px);
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  padding-top: 100px;
+  transition: all 0.2s;
+}
+.ackGraphic:not(.selected):hover {
+  transform: scale(0.9);
+}
+
+.ackGraphic:not(.selected) {
+  transform: scale(0.8);
 }
 
 .timelineGraphic {
