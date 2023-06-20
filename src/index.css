@@ -90,7 +90,11 @@ code {
   max-width: 100%;
   height: auto;
   width: 5.2%;
-} 
+}
+.thankyoutext{
+  font-size: clamp(12px, 2vw, 20px);
+
+}
 .AckMapImg {
   position: absolute;
   align-items: center;

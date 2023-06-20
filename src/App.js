@@ -299,15 +299,26 @@ useEffect(() => {
         )}
         {artAcknowledgementShown && (
           <div style={{ 
-            width: '100vmax',
+            width: '40vmax',
+            margin: 'auto',
             height: 'auto',
             alignItems:'center',
-            textAlign:'center', 
+            textAlign:'center',
+            paddingBottom: '40vh',
         }}>
           <a href={'https://hotdogwaterart.com/'} >
               <img src={tsista} className={"ackGraphic"} />
               </a>
-            <h2 style={{paddingBottom: '40vh'}}>Illustrations by Hotdog Water Art</h2>
+            <div style={{
+            padding: '20px', 
+            border: '3px solid blue',
+            borderColor: 'rgb(0, 0, 0)',
+            backgroundColor: 'rgb(187, 187, 187)',}}> 
+            <h2>Illustrations by Hotdog Water Art</h2>
+            <t>Special thanks to Anishinaabe Onyota’a:aka artist, Tsista Kennedy, for their invaluable contribution of incredible woodland style icons and artwork to this website. 
+              We are deeply grateful for his artistic vision and dedication. 
+              We highly encourage you to explore </t> <a href={'https://hotdogwaterart.com/'}>Tsista’s other captivating creations.</a> 
+          </div>
           </div>
         )}
       </div>
