@@ -4,8 +4,8 @@ export const taskData = [
         id: 0,
         name: "Residents",
         tasks: {
-            beforeFireTasks:['Manage vegetation and property','Install fire/fuel breaks with Environment Advisor','Assess agricultural assets with Agricultural Advisor','Have firefighting tools, such as a shovel or garden water, hose ready','Prepare emergency supply kit according to checklist','File Individual alternative evacuation plans if applicable','Keep firefighting propped against house and visible'],
-            duringFireTasks : ['Report fires to Emergency Co-ordinator and Local Leader','Share emergency updates with friends and family','Load valuables in and prepare vehicle for quick departure','Turn off propane/natural gas valves and clear surrounding vegetation','Fill sinks, tubs, and buckets with water. Gather Buckets and Towels','Move combustibles away from and close windows/doors','Cover openings with fire-resistant materials','Register for evacuation at Emergency Operations Centre','Request needed resources from Emergency Co-ordinator','Evacuate according to instructions','Keep receipts for evacuation expenses on the checklist'],
+            beforeFireTasks:['Manage vegetation and property','Install fire/fuel breaks on own property','Assess agricultural assets with Agricultural Advisor','Have firefighting tools, such as a shovel or garden water hose, ready','Prepare emergency supply kit according to checklist','File Individual alternative evacuation plans if applicable','Keep firefighting tools propped against house and visible',],
+            duringFireTasks: ['Report fires to Emergency Coordinator and Local Leader','Share emergency updates with friends and family','Load valuables and prepare vehicle for quick departure','Turn off propane/natural gas valves ','Fill sinks, tubs, and buckets with water, Gather towels','Close windows/doors, Move combustibles away','Cover openings/door gaps with towels/fire-resistant materials','Register for evacuation at Emergency Operations Centre','Request needed resources from Emergency Coordinator','Evacuate according to instructions','Keep receipts for evacuation expenses ',],
             afterFireTasks: ['Request reimbursement for evacuation costs'], 
             }
     },
@@ -14,9 +14,9 @@ export const taskData = [
         id: 1,
         name: "Local Leader",
         tasks: {
-            beforeFireTasks: ['Prepare community for emergency (pre-incident) with Emergency Co-ordinator','Develop and Maintain relationships with relevant agencies, communities, and businesses','Ensure needs can be met by potential host communities','Ensure Residents have appropriate evacuation plans','Develop emergency financial plan with relevant parties.','Create emergency hosting plan with Emergency Co-ordinator and Host Communities.','Establish wildfire check points to trigger evacuation with Environmental Advisor.','Identify essential staff to remain during emergency.','Develop a list of internal liaisons','Ensure access for Emergency Responders to locked or gated roadways','Ensure all Residents can contact you during emergency'],
-            duringFireTasks: ['Setup Emergency Operations Centre','Determine incident nature and scope','Time permitting, work with relavent parties to evaluate the evacuation decision','Declare state of emergency and notify PEOC','Spread evacuation order and communicate the type of evacuation','Give the evaucation order wth as much warning as possible, communicate how to residents can prepare','Utilize emergency communications to contact necessary services, and other relavant groups','Regularly communicate incident status','Assess and monitor public safety and property protection','Provide leadership and continuity of government','Track expenses and justifications',],
-            afterFireTasks: ['Call-in and communicate the return home order','Organize return home with Transportation and Health Advisors','Celebrate the return home','Recognize essential staff for their efforts','Take stock, acknowledge fears, loss','Communicate funding and reimbursement to Residents','Listen to Resident experiences and improve the emergency plan for the future',],
+            beforeFireTasks: ['Prepare community for emergency (pre-incident) with Emergency Coordinator','Develop/maintain relationships with relevant agencies, communities, and businesses','Ensure needs can be met by potential host communities','Ensure Residents have appropriate evacuation plans','Create emergency hosting plan with Emergency Coordinator and Host Communities','Develop emergency financial plan with relevant parties','Establish wildfire safety points to trigger evacuation','Identify essential people to remain during emergency.','Develop/maintain list of internal liaisons for evacuee well-being during evacuation','Ensure access for Emergency Responders to properties and roadways','Develop contact line for Residents during emergency',],
+            duringFireTasks: ['Setup Emergency Operations Centre','Determine nature and scope of incident','Inform relevant parties/determine evacuation decision','Declare state of emergency and notify PEOC','Communicate evacuation pending (as much warning as possible) and type of evacuation','Give evacuation order (as much warning as possible), communicate timeline and how residents can prepare','Utilize Emergency Communications to contact necessary services, and other relevant groups','Regularly communicate incident status, monitor releases','Assess/ monitor public safety and property protection','Track expenses and justifications',],
+            afterFireTasks: ['Decide, order, communicate return home','Organize return home with Transportation and Health Advisors','Embrace return home, take stock, acknowledge fears, loss','Recognize essential staff for their efforts','Communicate funding and reimbursement to Residents','Listen to Resident experiences, work to improve future emergency plans',],
         }
  
     },
@@ -25,9 +25,9 @@ export const taskData = [
         id: 2,
         name: "Environment Advisor",
         tasks: {          
-            beforeFireTasks: ['Establish wildfire check points that will trigger evacuation if crossed','Create priority zones, evaluate and manage each area.','Ensure environmental management costs are included in the financial plan','Organize installation of a fire/fuel breaks','Ensure needed areas near power lines are cleared',],
-            duringFireTasks: ['Ensure that safe and effective incident response has minimal adverse environmental impacts',],
-            afterFireTasks: ['Monitors environmental impacts associated with incident',],
+            beforeFireTasks: ['Establish wildfire safety points to trigger evacuation','Evaluate community, create WUI fire priority zones and management protocols','Include environmental management costs in financial plan','Help plan/organize installation of fire/fuel breaks','Monitor and clear areas near power lines',],
+            duringFireTasks: ['Coordinate/monitor environmental aspects of incident response for safety and effectiveness',],
+            afterFireTasks: ['Monitor environmental impact during and after fire',],
         }
  
     },
@@ -36,9 +36,9 @@ export const taskData = [
         id: 3,
         name: "Health Advisor",
         tasks: {
-            beforeFireTasks: ['Maintain a list of priority evacuees, as well as their caretakers. Communicate list regularly to band members and external agencies','Maintain list of medical treatment requirements for each priority evacuee','Assist in maintaining a list of viable host communities','Ensure evacuation protocol can accommodate high priority evacuees medical needs and caretakers','Establish a priority evacuation plan for high risk populations and caretakers','Ensure local Ambulance Stations have an updated list of high risk evacuees that will require an ambulance','Ensure healthcare and social costs are included in the financial plan',],
-            duringFireTasks: ['Addresses incident specific health concerns of affected public or responders','Ensure high risk evacuees are evacuated with their caretakers','Ensure evacuees bring their needed medications or get help accessing new ones at the evacuation site','Ensure medical attention is sustained through evacuation when necessary','Communicate special medical requirements of evacuees to Evacuation Centres','Ensure health care concerns of evacuees receive necessary attention',],
-            afterFireTasks: ['Assist in organizing the return home','Arrange counsel and healthcare for Residents. Ensure residents are aware of available resources','Ensure all medical and counselling needs are accounted for in the reimbursement process',],
+            beforeFireTasks: ['Develop/maintain list of priority evacuees and caretakers, communicate list regularly','Maintain/update list of medical treatment needs for each priority evacuee','Assist in maintaining list of viable host communities','Ensure evacuation protocol can accommodate high priority evacuees medical needs and caretakers','Establish priority evacuation plan for high risk populations and caretakers','Circulate updated list of high risk evacuees with needs to local Ambulance Stations','Include healthcare and social costs in the financial plan',],
+            duringFireTasks: ['Address incident specific health concerns (evacuees, responders, leaders)','Oversee evacuation of high risk evacuees with caretakers','Monitor medication needs and status of evacuees, arrange medication access at host sites','Oversee sustained medical attention through evacuation as needed','Communicate special medical requirements of evacuees to Evacuation Centres','Oversee that health care concerns of evacuees receive attention',],
+            afterFireTasks:['Assist in determining/organizing return home','Arrange/communicate counselling and healthcare resources for Residents','Account for medical and counselling needs in the reimbursement process',],
         }
  
     },
@@ -47,9 +47,9 @@ export const taskData = [
         id: 4,
         name: "Agriculture Advisor",
         tasks: {
-            beforeFireTasks: ['Assess agricultural assets and approaches','Ensure agricultural management costs are included in the financial plan',],
-            duringFireTasks: ['Assist with evacuation and care of livestock (or slaughter and disposal of injured livestock)','Assess and mitigate the impact of fire on Agricutlural Resources',],
-            afterFireTasks: ['Ensure agricultural losses are accounted for in the reimbursement process',],
+            beforeFireTasks: ['Assess agricultural assets and plan approach for preservation in fire','Include agricultural management costs in the financial plan',],
+            duringFireTasks: ['Assist with evacuation and care of livestock, slaughter and disposal of injured livestock','Assess/develop plan for mitigation of fire impact on Agricultural Resources',],
+            afterFireTasks: ['Account for agricultural losses in reimbursement process',],
         }
  
     },
@@ -58,9 +58,9 @@ export const taskData = [
         id: 5,
         name: "Transportation Advisor",
         tasks: {
-            beforeFireTasks:['Assist in maintaining a list of viable host communities','Develop community evacuation plan','Ensure evacuation protocol can accommodate high priority evacuees medical needs and caretakers','Establish a priority evacuation plan for high risk populations and caretakers','Develop evacuation routes and plan with Transport Ministry','Ensure transport to, and minimizing delays at the airport is included in the evacuation plan if necessary','Ensure travel costs are included in the financial plan','Ensure that those with individual alternative evacuation plans have adequate transportation','Ensure there are reflective, non combustible signs for the roadways. ','Ensure roadways are capable of handling fire crew vehicles','Assist in running evacuation drills for the community',],
-            duringFireTasks: ['Organize the evacuation','Manage traffic and crowds','Ensure everyone assisting with evacuation is aware of, and respectful towards those with individual alternative evacuation plans','Secure any necessary external vehicles for evacuation','Ensure minimal delays getting off the ground at the airport if necessary',],
-            afterFireTasks: ['Organize the return home',],
+            beforeFireTasks:['Maintain/update lists of high risk residents, evacuation plans, and host communities','Develop/communicate transportation plan for community evacuation','Account for needs of high priority evacuees  and caretakers in transportation plan ','Establish priority evacuation plan for high risk populations and caretakers','Develop evacuation routes and plan','Arrange transport/minimize potential transportation delays in evacuation (if necessary)','Include transportation costs in the financial plan','Check individual alternative evacuation plans for adequate transportation','Obtain reflective, non combustible signs for the roadways','Manage roadways/plan access for fire crews/vehicles','Assist in running evacuation drills for the community',],
+            duringFireTasks: ['Organize transport during evacuation','Manage traffic, detours and crowds','Communicate/support individual alternative evacuation plans','Secure necessary external vehicles for evacuation',],
+            afterFireTasks: ['Organize transport for return home',],
         }
  
     },
@@ -69,9 +69,9 @@ export const taskData = [
         id: 6,
         name: "Internal Emergency Responders",
         tasks: {
-            beforeFireTasks: ['Review the evacuation plan','Maintain a list of high risk residents, as well as those with alternative individual evacuation plans','Assist in running evacuation drills, emergency preparedness and outreach efforts','Ensure access to any locks or gates that restrict access on the roadways',],
-            duringFireTasks: ['Establish and maintain a secure incident perimeter','Control traffic and crowds','Co-ordinate emergency evacuations and enforce evacuation orders','Respect those with individual alternative evacuation plans','Assist fire service as necessary','Update on incident progress',],
-            afterFireTasks: ['Assist in managing return home','Assist in rebuilding community',],
+            beforeFireTasks: ['Review evacuation plan','Assist with evacuation drills, emergency preparedness and outreach efforts','Establish access plan for properties and roadways',],
+            duringFireTasks: ['Establish and maintain a secure incident perimeter','Assist in traffic/crowd control','Assist with emergency evacuations, enforcing evacuation orders','Support individual alternative evacuation plans','Fire suppression as appropriate','Update incident progress',],
+            afterFireTasks: ['Assist in return home','Assist in rebuilding community',],
         }
                
                 
@@ -82,9 +82,9 @@ export const taskData = [
         id: 7,
         name: "Emergency Co-ordinator",
         tasks: {
-            beforeFireTasks:['Develop an Emergency Plan with stakeholders and evacuation communication protocol','Communicate with Advisors to update Emergency Plan','Establish wildfire check points with Environmental Advisor and Local Leader','Develop emergency financial plan with relevant parties','Maintain a list of viable host communities','Create emergency hosting plan with Host Communities','Develop External Organization Liaison list ','Identify essential staff to remain during emergency','Maintain and update Emergency Plan','Oversee regional emergency preparedness program','File individual alternative evacuation plans ','Share list of alternative evacuation plans with Emergency Responders','Ensure alternative evacuation plans have adequate transportation ',],
-            duringFireTasks: ['Determine nature and scope of incident','Register and track evacuees and share information with Emergency Operations Liaison','Co-ordinate evacuation, especially for those at high risk, through bus or air transportation','Ensure individual alternative evacuation plans are known and respected by all','Direct emergency operation as decision maker/facilitator','Ensure requested resources ar provided as needed','Co-ordinates resource allocation to off-site needs','Manage all on-site response efforts, deicison making, and establish mutual priorities for resource allocations','Assess evolving resource requirements that mayi nvolve provincial or federal resources',],
-            afterFireTasks: ['Order return home and distribute message to evacuees and host communities','Work with advisors to communicate with residents about return, financial, and other support resources','Listen to Resident experiences and improve the emergency plan for the future',],
+            beforeFireTasks:['Develop Emergency Plan with stakeholders and evacuation communication protocol','Continually update Emergency Plan with Advisors','Establish wildfire safety points to trigger evacuation with Environmental/Heath Advisors, Local Leader','Develop emergency financial plan with relevant parties','Maintain list of viable host communities','Create plan for emergency hosting with Host Communities','Develop/update External Organization/Government Agency Liaison contact list','Identify essential people to remain during emergency.','Maintain/update Emergency Plan','Oversee emergency preparedness program','File alternative evacuation plans for Residents','Check alternative evacuation plans for transportation ','Share alternative evacuation plans with Emergency Responders',],
+            duringFireTasks: ['Determine nature and scope of incident','Register and track evacuees, share information with Emergency Operations Liaison','Coordinate evacuation through private vehicle, bus or air transportation','Ensure individual alternative evacuation plans are known and respected','Direct emergency operation (may be decision maker or facilitator)','Help request and distribute resources as needed','Co-ordinate resource allocation to off-site needs','Manage on-site response efforts, decisions, establish mutual priorities for resource allocation','Assess evolving resource requirements, involve provincial/federal/external resources if needed',],
+            afterFireTasks: ['Assist to order and communicate return home order','Coordinate return home, financial, and other support resources for Residents','Listen to Resident experiences,  work to improve the emergency plan for the future',],
         }
                
                 
@@ -94,9 +94,9 @@ export const taskData = [
         id: 8,
         name: "Emergency Communications",
         tasks: {
-            beforeFireTasks: ['Develop evacuation communication channels and plan, add procedure to Emergency Plan','Establish communication channels with external organizations ','Create communication plan with Evacuation Centre Communications',],
-            duringFireTasks: ['Work with local leader to communicate fire risk and status, and instructions through Emergency Plan channels','Keep residents informed of current status','Maintain contact with emergency site','Communicate with all agencies and disseminate information','Provide real-time communication about the fire through planned media forms to keep Residents informed','Ensure media messaging is accurate and represenatitve','Establish perimeters and move people to safety','Keep officials and Emergency Responders informed of the situation','Maintain contact with evacuation reception centers',],
-            afterFireTasks:['Order return home and distribute message to evacuees and host communities','Work with advisors to communicate with residents about return, financial, and other support resources','Listen to Resident experiences and improve the emergency plan for the future',],
+            beforeFireTasks: ['Develop plan (with channels) for communication during evacuation, add to Emergency Plan','Establish communication with external organizations ',],
+            duringFireTasks: ['Communicate fire risk and status, send instructions through Emergency Plan channels','Maintain contact with evacuation site(s)','Create communication plan with Evacuation Centre Communications','Communicate with all agencies and disseminate information','Communicate fire progression to Residents; implement communication plan','Screen/modify media messaging for accuracy/appropriateness ','Help establish perimeters, help move people to safety','Inform/communicate progress of evolving situation','Maintain contact with evacuation reception centers',],
+            afterFireTasks: ['Distribute return home messages to evacuees and host communities','Communicate with residents about return, financial, and other support resources','Listen to Resident experiences, improve future emergency plans as needed',],
         }
                
                 
@@ -106,9 +106,9 @@ export const taskData = [
         id: 9,
         name: "Emergency Operations Liaison",
         tasks: {
-            beforeFireTasks:['Maintain updated evacuation plan and list of host communities','Develop and update necessary External organization Liaison list and contact information','Create an emergency financial plan','Ensure all efforts from advisors are accounted for in the financial plan','look into funding for essential emergency personnel','Register with various external organization assistance programs','Secure funding for educational fire safety and prevention efforts','Maintain relationships and updated contact information for necessary local and provincial governement organizations and external emergency response/resource organizations','Develop list of essential staff that can stay behind during an emergency','Develop a list of internal liaisons','Develop and distribute emergency financial checklist',],
-            duringFireTasks:['Determine the nature and scope of the incident','Time permitting, work with relavent parties to evaluate the evacuation decision','Register and track evacuees ','Ensure flow of information between Emergency Operations Centre and External Organizations','Contacts mutual aid partners to provide status and resource needs','Requests external resources  as needed','Ensure all mandated agency responsibilities are fulfilled','Ensures that agency resources are available or brought to the emergency site','Ensures safe and effective response is occuring','Track expenses of anything paid by the band','Ensure Residents are keeping receipts',],
-            afterFireTasks: ['Ensure all external resources necessary for the return home are provided','Communicate financial support and resource availability for reimbursement and recovery efforts','Collect all information from Residents and Advisors necessary for reimbursement','Create or oversee the creation of a report and deliver to Indigenous services canada','File/request reimbursement for all evacuation expenses','Ensure funding for all immediate and long term community medical and counselling needs','Ensure funding for all community social and financial immediate and long term support',],
+            beforeFireTasks: ['Maintain/Update evacuation plan, list of host communities, alternative evacuation plans','Develop/update External Organization/Government Agency Liaison contact list','Develop emergency financial plan with relevant parties','Account for Advisor tasks in Emergency and financial plans','Investigate funding for essential emergency personnel','Register with assistance programs from external organizations ','Help secure funding, resources for WUI fire safety and prevention education','Identify essential people to remain during emergency.','Develop/maintain list of internal liaisons for evacuee well-being during evacuation','Develop/distribute emergency financial checklist',],
+            duringFireTasks: ['Determine nature and scope of incident','Time permitting, work with relevant parties to determine evacuation decision','Register and track evacuees, share information with Emergency Coordinator','Coordinate flow of information between Emergency Operations Centre, External Organizations','Contact mutual aid partners, report status, request resources','Request external resources  as needed','Fulfill mandated agency responsibilities (compile/file information)','Coordinate transfer of resources to the emergency site(s)','Coordinate/monitor response for safety and effectiveness','Track expenses of anything paid by the band','Remind Residents of receipt/reimbursement requirements',],
+            afterFireTasks: ['Coordinate external resources necessary for the return home','Communicate financial support and available resources for reimbursement, recovery','Collect information from Residents, Advisors for reimbursement','Oversee reporting and delivery to Indigenous Services Canada','File/request reimbursement for evacuation expenses','Establish funding mechanisms for immediate, long term community medical and counselling','Establish funding for immediate and long term community social and financial support',],
         }
                
                 
@@ -118,9 +118,9 @@ export const taskData = [
         id: 10,
         name: "Emergency Operations Centre",
         tasks: {
-            beforeFireTasks: ['Create emergency plan and keep relavant personnel informed',],
-            duringFireTasks: ['Registers and tracks all evacuees','Ensure financial plan is called into action ','Communicates all relevant information to respective parties','Co-ordinate resource allocation','Co-ordinate evacuation and suppresion efforts','Track information related to reimbursement of response and evacuation costs',],
-            afterFireTasks: ['Co-ordinates return home','Manage reporting of reimbursement process','Communicate funding and reimbursement to Residents','Improve the emergency plan',],
+            beforeFireTasks:['Includes Emergency Communications, Emergency Coordinator, Emergency Operations Liaison','Create emergency plan and keep relavant personnel informed',],
+            duringFireTasks: ['Register and track all evacuees','Activate financial plan ','Communicate relevant information to respective parties','Co-ordinate resource allocation','Co-ordinate evacuation and suppression efforts','Track information for reimbursement of response and evacuation costs',],
+            afterFireTasks: ['Co-ordinate return home','Manage reimbursement process and reports','Communicate funding and reimbursement to Residents','Take stock, improve Emergency Plan as necessary',],
         }
                
                 
@@ -130,8 +130,8 @@ export const taskData = [
         id: 11,
         name: "External Emergency Operations Liaison",
         tasks: {
-            beforeFireTasks:['Maintain updated evacuation plan and list of host communities','Assist in developing and updating necessary external Organization Liaison list',],
-            duringFireTasks:['Determine the nature and scope of the incident','Establish communication link with emergency operations centre','Ensure all mandated agency responsibilities are fulfilled','Ensures that agency resources are available or brought to the emergency site','Contacts external partners to provide status and resource needs','Ensures safe and effective response is occuring','Provides specialized leasing, purchasing, or borrowing of emergency products or services','Assists with requests for supporting materials and supplies beyond the capacity of the municipality','Requests information from Emergency Operations Centre as needed','Shadows Emergency Operations Centre to provide external perspective to the progress','Be transparent about decision making, and let community representatives take the lead','assess evolving resource requirements that may involve provincial or federal resources',],
+            beforeFireTasks:['Obtain updated Evacuation Plan and list of host communities','Develop/maintain external Organization Liaison list',],
+            duringFireTasks: ['Determine nature and scope of incident','Establish communication with Emergency Operations Centre','Fulfill mandated agency responsibilities','Arrrange/transport resources from various agencies','Contact external partners with status updates, resource requests','Monitor host sites for safe, secure and comfortable environment for evacuees, address needs','Provide/arrange specialized leasing, purchasing, or borrowing of emergency products or services','Assist with requests for support, materials and supplies beyond capacity of the municipality','Request information from Emergency Operations Centre as needed','Provide external perspective/input on situation','Work with community representatives, strive for transparency in decisions','Assess evolving resource requirements, access provincial or federal resources',],
             afterFireTasks: ['Assist with community social and financial support',],
         }
                 
@@ -142,8 +142,8 @@ export const taskData = [
         id: 12,
         name: "Outreach and Information Officer",
         tasks: {
-            beforeFireTasks: ['Assist in securing funding for fire safety outreach efforts','Organize fire safety outreach efforts to inform the community on fire safety ','Create and distribute an evacuation preparation and belongings checklist','Ensure all Residents have a clear and simplified version of the evacuation plan and alternates','create an emergency supply kit checklist for Residents, and ensure all emergency supply kits are appropriately stocked','Ensure structural assessments are completed','Run evacuation drills  and other educational programs for the community',],
-            duringFireTasks: ['Ensure all info released has been approved','Disseminate information accurately','Ensures that all inquires are responded to accurately and promptly',],
+            beforeFireTasks: ['Help secure funding, resources for WUI fire safety outreach efforts','Organize fire safety outreach education for community','Create and distribute an evacuation preparation and belongings checklist','Provide Residents with simplified evacuation overview and plans','Create emergency supply kit checklist, encourage/help Residents make kits ','Assess structures and assets in WUI for fire resilience','Coordinate evacuation drills, WUI fire educational programs for community',],
+            duringFireTasks: ['Have informational materials approved by Local Leader, Emergency Operations Centre','Aid Emergency Communications to disseminate accurate information','Redirect or respond to inquires accurately and promptly',],
             afterFireTasks: ['SEE OTHER CATEGORIES'],
         }
  
@@ -153,9 +153,9 @@ export const taskData = [
         id: 13,
         name: "Local Fire Department",
         tasks: {
-            beforeFireTasks: ['Have practiced in both training and drills','Determine Interface Priority Zones and fuel considerations around buildings, manage priority areas','Install fire/fuel breaks. Agree if, where, and how to do this.','Create Fire Suppression Checklist and add to the Emergency Plan. ','Ensure access to any locks or gates that restrict access on the roadways','Work with Wildland Firefighters to determine roles as it relates to this community','Assist in fire safety outreach efforts',],
-            duringFireTasks: ['Protect lives and property within jurisdiction','Define role as structural fire suppression and/or wildfire suppression','Assist Wildland Firefighters as necessary','Update on incident progress',],
-            afterFireTasks: ['Safeguard evidence, conduct investigations',],
+            beforeFireTasks: ['Learn/develop/assist in WUI fire safety training and drills','Determine/manage Interface Priority Zones, consider fuels, priority areas','Help plan/organize/install fire/fuel breaks','Create/add Fire Suppression Checklist to Emergency Plan','Establish access plan for properties and roadways','Assess needs/roles for internal/external fire services and wildland firefighters','Assist in fire safety outreach efforts',],
+            duringFireTasks: ['Protect lives and property within jurisdiction','Define nature/scope of incident, assemble structural/wildfire suppression crews','Assist Wildland Firefighters, External Emergency Responders','Update incident progress',],
+            afterFireTasks: ['Conduct necessary investigations, safeguard evidence',],
         }
            
             
@@ -165,8 +165,8 @@ export const taskData = [
         id: 14,
         name: "External Emergency Responders",
         tasks: {
-            beforeFireTasks: ['Understand the emergency plan and risks and nature of this specific community','Maintain a list of high risk evacuees and those with individual alternative evacuation plans','Discuss roles and where you fit within the emergency plan letting internal emergency responders and leaders within the community to take the lead','Ensure access to any locks or gates that restrict access on the roadways','Assist in emergency preparedness and evacuation drills and outreach efforts',],
-            duringFireTasks:['Shadow Internal Emergency Responders, allowing them to take the lead','Fill in gaps and assist as described in the emergency plan','Assist with crowd and traffic control, evacuation and communications as necessary','Respect those with individual alternative evacuation plans','Assist Fire Service as necessary','Protect lives and property within jurisdiction',],
+            beforeFireTasks: ['Understand emergency plan, risks, nature of community','Obtain list of high risk residents, alternative individual evacuation plans','Assist to define roles/intersections with local responders in emergency plan','Determine access plan for properties and roadways','Assist with evacuation drills, emergency preparedness and outreach efforts',],
+            duringFireTasks: ['Assist Internal Emergency Responders who may take the lead','Assist to execute emergency, fire suppression plans','Assist in traffic/crowd control, evacuation and communications as necessary','Support/respect alternative evacuation plans','Assist Internal Emergency Responders as necessary','Protect lives and property within jurisdiction',],
             afterFireTasks: ['SEE OTHER CATEGORIES',],
         }
            
@@ -177,11 +177,8 @@ export const taskData = [
         id: 15,
         name: "Wildland Firefighters",
         tasks: {
-            beforeFireImage:'4-Wildland_Firefighters_BeforeFire.jpg',
-            duringFireImage:'4-Wildland_Firefighters_DuringFire.jpg',
-            afterFireImage:'4-Wildland_Firefighters_AfterFire.jpg',
-            beforeFireTasks: ['Have practiced in both training and drills','Determine Interface Priority Zones and fuel considerations around buildings, manage priority areas','Install fire/fuel breaks. Agree if, where, and how to do this.','Ensure access to any locks or gates that restrict access on the roadways','Work with Local Fire Department to determine roles as it relates to this community',],
-            duringFireTasks: ['Create defensive breaks in wildfire ','Protect forest and range resources on public lands within their jurisdiction','Define role as structural fire suppression and/or wildfire suppression','Update on incident progress',],
+            beforeFireTasks: ['Learn/develop/assist in WUI fire safety training and drills','Determine/manage Interface Priority Zones, consider fuels, priority areas','Help plan/organize/install fire/fuel breaks','Establish access plan for properties and roadways','Work with Local Fire Department to determine roles for fire suppression',],
+            duringFireTasks: ['Create defensive breaks in wildfire ','Protect forest and range resources on public lands within their jurisdiction','Define nature/scope of incident, assemble structural/wildfire suppression crews','Update incident progress',],
             afterFireTasks: ['SEE OTHER CATEGORIES"',],
         }
            
@@ -193,8 +190,8 @@ export const taskData = [
         name: "Police",
         tasks: {
             beforeFireTasks: ['SEE OTHER CATEGORIES',],
-            duringFireTasks: ['SEE OTHER CATEGORIES',],
-            afterFireTasks: ['Safeguard evidence','Conduct investigations','Protect community from looting'],
+            duringFireTasks: ['Assist in evacuation where possible',],
+            afterFireTasks:['Conduct necessary investigations, safeguard evidence','Protect community from looting',],
         }
  
     },
@@ -203,9 +200,9 @@ export const taskData = [
         id: 17,
         name: "Ambulance",
         tasks: {
-            beforeFireTasks: ['Maintain list of high risk evacuees that will require an ambulance',],
-            duringFireTasks: ['Assist in evacuation of certain high risk or injured populations',],
-            afterFireTasks: ['Assist in repatriation of certain high risk or injured populations',],
+            beforeFireTasks: ['Obtain/maintain list of high risk evacuees that require ambulance, special medical needs',],
+            duringFireTasks: ['Assist in evacuation of high risk or injured people',],
+            afterFireTasks: ['Assist in repatriation of high risk or injured people',],
         }
  
     },
@@ -225,7 +222,7 @@ export const taskData = [
         id: 19,
         name: "Utility and Public Works",
         tasks: {
-            beforeFireTasks: ['Maintain vegetation around above ground power delivery lines. Underground power lines are most ideal',],
+            beforeFireTasks: ['Maintain/clear vegetation around above ground power delivery lines',],
             duringFireTasks: ['Assist response with technical support',],
             afterFireTasks: ['Assess and re-establish damaged infrastructure',],
         }
@@ -237,9 +234,9 @@ export const taskData = [
         id: 20,
         name: "Transportation Ministry",
         tasks: {
-            beforeFireTasks: ['Assist in developing community evacuation plan','Maintain up to date information on high risk list of residents, contact information of essential staff, evacuation plans, and host communities','Ensure there are reflective, non combustible signs for the roadways. ','Ensure roadways are capable of handling fire crew vehicles; both for their weight and length.',],
-            duringFireTasks: ['Manage traffic','Establish and control detours','Ensure necessary and requested vehicles are delivered to community','Ensure minimal delays at airport incases of air evacuation',],
-            afterFireTasks: ['Secure any transportation corridors affected by the incident','Maintains, repairs, and expedites reopening of transport infrastructure',],
+            beforeFireTasks: ['Assist community in developing evacuation transportation plan','Review roadways/plan for fire crew vehicle access, assist in alternatives',],
+            duringFireTasks: ['Assist in managing traffic, detours and crowds on provincial/federal roads','Assist in getting and delivering necessary/requested external transportation to community',],
+            afterFireTasks: ['Secure external transportation corridors affected by the incident','Maintain, repair, expedite reopening of transport infrastructure to community',],
         }
                
                 
@@ -249,8 +246,8 @@ export const taskData = [
         id: 21,
         name: "Media",
         tasks: {
-            beforeFireTasks: ['Assist prevention and preparedness efforts with bulletins and announcements',],
-            duringFireTasks: ['Ensure accurate and helpful information is broadcast to residents, evacuees and host communities','Assist response efforts by providing up to date information',],
+            beforeFireTasks: ['Assist prevention and preparedness efforts, broadcast bulletins and announcements',],
+            duringFireTasks:['Communicate accurate and helpful information to residents, evacuees and host communities','Assist response efforts where possible, provide up to date information',],
             afterFireTasks: ['SEE OTHER CATEGORIES',],
         }
  
@@ -260,9 +257,9 @@ export const taskData = [
         id: 22,
         name: "Evacuation Centre Co-ordinator",
         tasks: {
-            beforeFireTasks: ['Ensure all community needs can be met','Develop an emergency hosting plan','Maintain updated list of high risk evacuees and caretakers','Understand the emergency financial plan','Organize training on culturally sensitive issues for all staff','Set up a system for reporting issues of  security and racism',],
-            duringFireTasks: ['Activate reception centre','Register and track evacuees','Ensure when accomodations are limited, high risk evacuees and caretakers are prioritized','Inform evacuees of the system for reporting issues of security and racism','Inform evacuees of all relevant systems, procedures and options they have while in your care','Provide necessary resources outlined in the emergency hositng plan','Organize culturally appropriate activities','Have flexible meal times and food and beverage options outside of meal times','Assist in record keeping and receipts for financial purposes','Ensure evacuees feel as safe, secure and comfortable as possible, and address any arising concerns',],
-            afterFireTasks: ['Ensure all evacuees have their belongings','Ensure all evacuees are accounted for and board the appropriate transport home','Ensure families travel together when possible','Ensure high risk populations and caretakers are boarding the appropriate transport','Ensure all records are accounted for and recorded properly in the reimbursement process','Improve the emergency hosting plan',],
+            beforeFireTasks: ['Plan with community to meet evacuation needs','Develop emergency hosting plan','Obtain/maintain list of high risk evacuees and caretakers','Understand emergency financial plan','Discuss sensitive issues (family, cultural, stress, fear) with staff/volunteers','Develop reporting system (security, insensitivity, needs)',],
+            duringFireTasks: ['Activate reception centre and communication channels','Register and track evacuees arriving','Prioritize high risk evacuees/caretakers when accommodations limited','Inform evacuees of reporting system (security, insensitivity, needs)','Inform evacuees of systems, procedures and options at host community','Provide resources in the hosting plan','Organize culturally appropriate activities','Have flexible meal times, have food and beverages outside of meal times','Assist in record keeping and financial receipts','Develop safe, secure and comfortable environment for evacuees, address concerns',],
+            afterFireTasks: ['Connect evacuees to their belongings','Aid in return home of evacuees, family and belongings','Unite families for travel when possible','Guide high risk populations and caretakers to board correct transportation','Compile records and accounts for reimbursement','Listen to resident/community experiences,  work to improve future hosting plans',],
         }
  
     },
@@ -271,9 +268,9 @@ export const taskData = [
         id: 23,
         name: "Host Community/Evacuation Centre",
         tasks: {
-            beforeFireTasks: ['Ensure all community needs can be met',],
-            duringFireTasks: ['Register and track evacuees','Ensure all evacuees needs are being met in accordance with the emergency hosting plan','Ensure accurate and efficient broadcasting of incident information and progress',],
-            afterFireTasks: ['Ensure all evacuees are accounted for, and safely board the appropriate transportation with their family and all of their belongings',],
+            beforeFireTasks: ['Plan with community to meet evacuation needs',],
+            duringFireTasks: ['Register and track evacuees arriving','Understand emergency hosting plan, provide for evacuees and special needs','Communicate incident information and progress accurately and efficiently',],
+            afterFireTasks: ['Aid in return home of evacuees, family and belongings',],
         }
  
     },
@@ -282,9 +279,9 @@ export const taskData = [
         id: 24,
         name: "Evacuation Centre Communications",
         tasks: {
-            beforeFireTasks: ['Ensure all community needs can be met','Establish a communication plan with Emergency Communications',],
-            duringFireTasks: ['Distribute reliable information to evacuees on emergency status','Inform evacuees of the system for reporting issues of security and racism','Inform evacuees of all relevant systems, procedures and options they have while in your care','Ensure all evacuees have access to communication devices if requested',],
-            afterFireTasks: ['Broadcast the order to return home','Improve the emergency hosting plan',],
+            beforeFireTasks: ['Plan with community to meet evacuation needs','Obtain community communication plan and protocols',],
+            duringFireTasks: ['Distribute reliable information to evacuees on emergency status','Inform evacuees of reporting system (security, insensivity, needs)','Inform evacuees of systems, procedures and options at host community','Provide evacuees with communication devices, phone chargers',],
+            afterFireTasks: ['Communicate return home order','Listen to resident/community experiences,  work to improve hosting plan for the future',],
         }
  
     },
@@ -293,9 +290,9 @@ export const taskData = [
         id: 25,
         name: "Evacuation Centre Liaison",
         tasks: {
-            beforeFireTasks: ['Ensure all community needs can be met','Maintain updated list of high risk evacuees and caretakers','Maintain updated Internal liaison list','Maintain relationships with external organizations',],
-            duringFireTasks: ['Call in support from external organizations ','Liaise with external organizations to provide necessary resources','Organize culturally appropriate activities','Respectfully recruit Internal liaisons as necessary','Provide assistance to evacuees to help them adjust to life in a larger community','Address any arising concerns from evacuees',],
-            afterFireTasks: ['Improve the emergency hosting plan',],
+            beforeFireTasks: ['Plan with community to meet evacuation needs','Obtain updated list of high risk evacuees and caretakers','Obtain updated Internal liaison list','Develop/maintain relationships with external organizations for support, relief, supplies',],
+            duringFireTasks: ['Obtain support from external organizations ','Liaise with external organizations for necessary supplies, resources','Organize culturally appropriate activities','Recruit Internal Liaisons from amongst evacuees','Aid evacuees in adjusting to life outside home/in a larger community','Develop safe, secure and comfortable environment for evacuees, address concerns',],
+            afterFireTasks: ['Listen to resident/community experiences,  work to improve the hosting plan for the future',],
         }
  
     },
@@ -305,7 +302,7 @@ export const taskData = [
         name: "Fire Commissioner's Office",
         tasks: {
             beforeFireTasks: ['SEE OTHER CATEGORIES',],
-            duringFireTasks: ['Provide authority for evacuation initiatives in some provinces',],
+            duringFireTasks: ['Authority for evacuation (some provinces)',],
             afterFireTasks: ['SEE OTHER CATEGORIES',],
         }
  
@@ -315,9 +312,9 @@ export const taskData = [
         id: 27,
         name: "Indigenous Services Canada",
         tasks: {
-            beforeFireTasks: ['Develop financial plan','Ensure eligibility criteria for each phase is clear','Provide funding for all efforts related to fire safety',],
-            duringFireTasks: ['Provide funding for all efforts related to fire safety',],
-            afterFireTasks: ['Provide funding for all efforts related to fire safety',],
+            beforeFireTasks: ['Advise and support financial plan','Ensure eligibility criteria are clear and well communicated','Fund and support for efforts related to fire safety',],
+            duringFireTasks: ['Fund and support for efforts related to fire safety',],
+            afterFireTasks: ['Fund and support for efforts related to fire safety',],
         }
  
     },
