@@ -316,7 +316,7 @@ useEffect(() => {
             backgroundColor: 'rgb(187, 187, 187)',}}> 
             <h2>Illustrations by Hotdog Water Art</h2>
             <t>Special thanks to Anishinaabe Onyota’a:aka artist, Tsista Kennedy, for their invaluable contribution of incredible woodland style icons and artwork to this website. 
-              We are deeply grateful for his artistic vision and dedication. 
+              We are deeply grateful for their artistic vision and dedication. 
               We highly encourage you to explore </t> <a href={'https://hotdogwaterart.com/'}>Tsista’s other captivating creations.</a> 
           </div>
           </div>
